@@ -1,0 +1,47 @@
+.Home-style{
+    position: relative;
+    max-width: 100%;
+    min-height: 110vh;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    padding-top: 50rem;
+}
+
+.Blur-home{
+    background-image: url("../../assets/Images/Home/Homeimg.webp");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 15rem;
+    z-index: -1;
+}
+
+.text-home{
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    padding-top: 15rem;
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info-home{
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 3rem;
+}
